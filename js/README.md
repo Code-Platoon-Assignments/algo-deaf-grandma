@@ -1,4 +1,7 @@
 ## Considerations (Javascript)
+
+To run the program: `node.js deaf_grandma.js`
+
 * In your code you'll definitely need to use `if` and likely an `else if` and `else`.
-* This will be hard to do in the terminal with Node.js, because Node.js doesn't have a great built-in prompt.
-* This is relatively easy to do in the browser with `window.prompt`, but you'll need to use an HTML file to run your javascript file.
+* We have provided some "guide code" showing you how to prompt for user input from the command line and do something with it, which is not straightforward with node.js
+* The `package.json` file is there to tell node.js to use ES6 modules for importing/exporting functions, etc. We will learn more about this later.
