@@ -34,7 +34,3 @@ LEAVING SO SOON?
 > GOODBYE!
 LATER, SKATER!
 ```
-
-## Challenge Yourself
-
-For a little extra fun, try refactoring your code to use regular expressions.
