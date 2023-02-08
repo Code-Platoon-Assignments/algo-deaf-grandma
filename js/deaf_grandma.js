@@ -1,7 +1,3 @@
-/**
- * Use the readline module in the node.js standard library to 
- * create a function to get user input.
- */
 import * as readline from 'node:readline/promises';
 import { stdin as input, stdout as output } from 'node:process';
 
@@ -15,10 +11,11 @@ import { stdin as input, stdout as output } from 'node:process';
  * Guide code borrowed from: https://nodejs.org/api/readline.html#readline
  */
 const rl = readline.createInterface({ input, output });
-let answer = await rl.question('What do you think of Node.js? ');
-console.log(`Thank you for your valuable feedback: ${answer}`);
-answer = await rl.question(`Why do you think Node.js ${answer}?`)
+let userInput = await rl.question('What do you think of Node.js? ');
+console.log(`Thank you for your valuable feedback: ${userInput}`);
+userInput = await rl.question(`Why do you think Node.js ${userInput}?`)
 
 
 // TODO: Using the above code as a reference and a guide, implement the deaf grandma problem!
 // Then comment out the above code once you have your program working.
+input = await rl.question('HEY, KID!');
