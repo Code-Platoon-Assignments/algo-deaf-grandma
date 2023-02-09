@@ -34,17 +34,3 @@ LEAVING SO SOON?
 > GOODBYE!
 LATER, SKATER!
 ```
-
-## Considerations (Python)
-* In your code you'll definitely need to use `if` and likely an `elif` and `else`.
-* Also remember that `input()` is the "inverse" method of `print()` -- while `print()` outputs information to the terminal, `input('command Prompt')` captures information from the user by presenting a command prompt and allowing them to type input.
-* If you have an infinite loop, how might you break out of it?
-
-## Considerations (Javascript)
-* In your code you'll definitely need to use `if` and likely an `else if` and `else`.
-* This will be hard to do in the terminal with Node.js, because Node.js doesn't have a great built-in prompt.
-* This is relatively easy to do in the browser with `window.prompt`, but you'll need to use an HTML file to run your javascript file.
-
-## Challenge Yourself
-
-For a little extra fun, try refactoring your code to use regular expressions.
